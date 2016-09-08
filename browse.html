@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>e-learning browse</title>
+
+
+
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--Admin files-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/AdminLTE.css">
+<link rel="stylesheet" href="css/skin-red.css">
+    
+<!-- Custom Theme files -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="The News Reporter Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!--webfont-->
+
+      
+   
+      <link rel="stylesheet" type="text/css" href="css/header.css">
+
+		<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/app.min.js"></script>
+
+	  <script type="text/javascript">
+			$( document ).ready(function() {
+	$(".cross").hide();
+	$(".main-sidebar").hide();
+	$(".hamburger").click(function() {
+	$(".main-sidebar").slideToggle("slow", function() {
+		$(".hamburger").hide();
+		$(".cross").show();
+		});
+	});
+
+	$(".cross").click(function() {
+	$(".main-sidebar").slideToggle("slow", function() {
+    $(".cross").hide();
+    $(".hamburger").show();
+  });
+});
+});
+	  </script>
+	  <style type="text/css">
+
+#header2{	
+	margin-top:100px;
+	z-index:-20;
+	width:100%; 
+	height:50px; 
+	line-height:50px;
+	background-color:black;
+	
+}
+.hamburger{
+  background:black;
+  position:absolute;
+  margin-top:5px;
+  left:30%;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:1em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10;
+}
+.cross{
+  background:black;
+  position:absolute;
+  margin-top:5px;
+  left:40%;
+  padding:0px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10;
+}
+
+	  </style>
+
+<style>
+.choose img:hover {
+opacity: .5;
+display :block;
+}
+
+.choose img {
+display :none;
+}
+.card-image div {
+    display: none;
+  
+}
+
+a:hover + div {
+    display: block;
+}​
+
+</style>
+</head>
+<body>
+	<!-- header-section-starts -->
+   <header>
+
+	<div class = "page-header" style="box-shadow: 5px 5px 5px #888888;">
+		<img class="newsHeader" style="height: 100px; width: 250px;" src="img/news.png">
+         <p style="margin-left: 17%;" class="date"></p>
+		 
+		       <span><i class="fa fa-facebook-square fa-2x" style="position: fixed; margin-left: 60%; margin-top: 30px;"></i></span>
+		       <span><i class="fa fa-twitter fa-2x" style="position: fixed; margin-left: 63%; margin-top: 30px;"></i></span>
+
+    </div>
+	<div class="clear"></div>
+	</header>
+<!--side menu-->
+<div class="row">
+<div class="col-md-2">
+<div id="header2">
+  <button class="hamburger">Browse &nbsp &nbsp  &#9660;</button>
+  <button class="cross">&#735;</button>
+</div>
+
+<div class="hold-transition skin-red sidebar-mini">
+<aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          
+		<ul class="sidebar-menu">
+            <li class="active treeview">
+				<a href="#">
+					<i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Technology</span> <i class="fa fa-angle-left pull-right"></i>
+				</a>
+				<ul class="treeview-menu">
+					<li><a href="webdev.html" target="disp"><i class="fa fa-circle-o"></i>Web development</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Programming language</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Big data and Hadoop</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Network Security</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Mobile Technology</a></li>					
+				</ul>
+            </li>
+<li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Business</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Project Management</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Soft Skills</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Human Resource</a></li>
+					<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Office Skills</a></li>					
+                </ul>
+            </li>
+<li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Photography</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Travel</a></li>
+				<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Mobile</a></li>
+				<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Wildlife</a></li>
+                </ul>
+            </li>
+<li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Personality</span><i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Stress Management</a></li>
+				<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Leadership Skills</a></li>
+				<li><a href="#" target="disp"><i class="fa fa-circle-o"></i>Career Development</a></li>
+                </ul>
+              
+            </li>
+		</ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+	</div>	
+	</div>
+	<br><br>
+	<div class="col-md-10" style="padding-top:5%">	
+<div class="choose">
+<div class="div-header" style="padding-left:2%">
+    <h2> <b> Business </b> </h2>
+  </div>
+		 <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="#"> <img src="img/java.png" height="175px"> </a>
+		 <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+              <p><b> Java tutorials in simple and lucid language</b></p>
+			   <p> By instructor Da Vinci,Software Development Trainer</p>
+            </div>
+          </div>
+        </div>
+		
+		  <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="#"> <img src="img/java.png" height="175px"> </a>
+			  <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+                   <p><b> Java tutorials in simple and lucid language</b></p>
+			   <p> By instructor Da Vinci,Software Development Trainer</p>
+            </div>
+          </div>
+        </div>
+		<div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="#"> <img src="img/java.png" height="175px"> </a>
+			  <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+                   <p><b> Java tutorials in simple and lucid language</b></p>
+			   <p> By instructor Da Vinci,Software Development Trainer</p>
+            </div>
+          </div>
+        </div>
+
+		
+		  <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			  <a href="#"> <img src="img/python.png" height="200px"> </a>
+			    <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+              <p> <b>Best video lectures on Python </b> </p>
+			  <p> By instructor Da Vinci,Software Development Trainer</p>
+            </div>
+          </div>
+        </div>
+		
+
+		
+</div>
+   </div>
+
+<div class="choose">
+<div class="div-header" style="padding-left:2%">
+    <h2> <b> Technology </b></h2>
+  </div>
+  <br>
+<div class="row">
+         <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="course_desp.html"> <img src="img/html5.png" height="215px"> </a>
+			 <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+              <p> <b>  Easy to understand courses on HTML 5 </b> </p>
+			  <p> By Instructor Alchemist,Web Developer at Flipkart </p>
+            </div>
+          </div>
+        </div>
+
+		  <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="course_desp.html"> <img src="img/html5.png" height="215px"> </a>
+			 <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+               <p> <b>  Easy to understand courses on HTML 5 </b> </p>
+			  <p> By Instructor Alchemist,Web Developer at Flipkart </p>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="course_desp.html"> <img src="img/html5.png" height="215px"> </a>
+			 <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+             <p> <b>  Easy to understand courses on HTML 5 </b> </p>
+			  <p> By Instructor Alchemist,Web Developer at Flipkart </p>
+            </div>
+          </div>
+        </div>
+
+		   <div class="col-md-3">
+          <div class="card">
+            <div class="card-image">
+			
+             <a href="course_desp.html"> <img src="img/boot.jpeg" height="230px"> </a>
+			  <div> <p> <b> <h3> 21 Lectures </h3> </b> </p> <p> <b> <h3>  2.5 Hours </h3> </b> </p> </div>
+            </div>
+            <div class="card-content">
+              <p> <b> Lectures on Bootstrap Framework </b> </p>
+			  <p> By Instructor Alchemist,Web Developer at Flipkart </p>
+            </div>
+          </div>
+        </div>
+
+ 
+</div>
+	</div>
+</div>
+</body>
+</html>

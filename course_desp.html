@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>e-learning browse</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--course css files-->
+<link rel="stylesheet" href="css/course_desp.css">
+<!--Admin files-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/AdminLTE.css">
+<link rel="stylesheet" href="css/skin-red.css">
+    
+<!-- Custom Theme files -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!--webfont-->
+
+      
+   
+      <link rel="stylesheet" type="text/css" href="css/header.css">
+
+		<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/app.min.js"></script>
+
+	  <script type="text/javascript">
+			$( document ).ready(function() {
+	$(".cross").hide();
+	$(".main-sidebar").hide();
+	$(".hamburger").click(function() {
+	$(".main-sidebar").slideToggle("slow", function() {
+		$(".hamburger").hide();
+		$(".cross").show();
+		});
+	});
+
+	$(".cross").click(function() {
+	$(".main-sidebar").slideToggle("slow", function() {
+    $(".cross").hide();
+    $(".hamburger").show();
+  });
+});
+});
+	  </script>
+	  <style type="text/css">
+
+#header2{
+	margin-top:100px;
+	z-index:1000;
+	width:100%; 
+	height:50px; 
+	line-height:50px;
+	background-color:black;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  margin-top:5px;
+  left:30%;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:1em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  margin-top:5px;
+  left:40%;
+  padding:0px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+	  </style>
+</head>
+<body>
+	<!-- header-section-starts -->
+   <header>
+
+	<div class = "page-header" style="box-shadow: 5px 5px 5px #888888;">
+		<img class="newsHeader" style="height: 100px; width: 250px;" src="img/logo.png">
+         <p style="margin-left: 17%;" class="date"></p>
+		 
+		       <span><i class="fa fa-facebook-square fa-2x" style="position: fixed; margin-left: 60%; margin-top: 30px;"></i></span>
+		       <span><i class="fa fa-twitter fa-2x" style="position: fixed; margin-left: 63%; margin-top: 30px;"></i></span>
+
+    </div>
+	<div class="clear"></div>
+	</header>
+<!--side menu-->
+<div class="row">
+<div class="col-md-2">
+<div id="header2">
+  <button class="hamburger">Browse &nbsp &nbsp &#9660;</button>
+  <button class="cross">&#735;</button>
+</div>
+
+<div class="hold-transition skin-red sidebar-mini">
+<aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          
+		<ul class="sidebar-menu">
+            <li class="active treeview">
+				<a href="#">
+					<i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Technology</span> <i class="fa fa-angle-left pull-right"></i>
+				</a>
+				<ul class="treeview-menu">
+					<li><a href="upload_adv.html" target="disp"><i class="fa fa-circle-o"></i>Web development</a></li>
+					<li><a href="upload_announce.html" target="disp"><i class="fa fa-circle-o"></i>Programming language</a></li>
+					<li><a href="upload_events.html" target="disp"><i class="fa fa-circle-o"></i>Big data and Hadoop</a></li>
+					<li><a href="upload_movies.html" target="disp"><i class="fa fa-circle-o"></i>Network Security</a></li>
+					<li><a href="upload_news.html" target="disp"><i class="fa fa-circle-o"></i>Mobile Technology</a></li>					
+				</ul>
+            </li>
+<li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Bussiness</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+					<li><a href="remove_advertisements.html" target="disp"><i class="fa fa-circle-o"></i>Project Management</a></li>
+					<li><a href="remove_announcements.html" target="disp"><i class="fa fa-circle-o"></i>Soft Skills</a></li>
+					<li><a href="remove_events.html" target="disp"><i class="fa fa-circle-o"></i>Human Resource</a></li>
+					<li><a href="remove_movies.html" target="disp"><i class="fa fa-circle-o"></i>Office Skills</a></li>					
+                </ul>
+            </li>
+<li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Photography</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="add_category.html" target="disp"><i class="fa fa-circle-o"></i>Travel</a></li>
+				<li><a href="add_institute.html" target="disp"><i class="fa fa-circle-o"></i>Mobile</a></li>
+				<li><a href="add_top_news.html" target="disp"><i class="fa fa-circle-o"></i>Wildlife</a></li>
+                </ul>
+            </li>
+<li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span style="color:white; font-size:1.2em">Personality</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="add_category.html" target="disp"><i class="fa fa-circle-o"></i>Stress Management</a></li>
+				<li><a href="add_institute.html" target="disp"><i class="fa fa-circle-o"></i>Leadership Skills</a></li>
+				<li><a href="add_top_news.html" target="disp"><i class="fa fa-circle-o"></i>Career Development</a></li>
+                </ul>
+              
+            </li>
+
+		</ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+	</div>	
+	</div>
+	<div class="container col-md-10 course">
+        <div class="row course-desc">
+            <div class="col-md-12">
+                <h1 class="course-title" data-purpose="course-title">
+					The Non-Technical Person's guide to building products &amp; apps
+				</h1>
+
+				<div class="ci-d">
+					Go from Idea to MVP with no CTO and no coding. Launch your business, app, or product idea cheaply, quickly, and easily.
+				</div>				
+				<div class="by mb10 flex-col-xs">
+        	        <span class="mr30">
+						Instructed by
+                            <span class="thb-n prox ud-popup">Evan Kimbrell</span>
+                    </span>
+                    <span class="cats">
+                        <span class="cd-ca">Technology</span>/
+                                                <span class=""> Web development</span>
+                    
+                    </span>
+                </div>
+            </div>
+        </div>
+		<br>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-10">
+				<video controls id="tut_video">
+					<source src="img/test.mp4" type="video/mp4">				
+					Your browser does not support HTML5 video.
+				</video>
+			</div>
+		</div>
+		<div class="row about_course" >
+			<div id="about-course">
+                <h1>About This Course</h1>
+			
+                <div class="row">
+                    <div class="col-md-12">
+						<div id="desc" class="top-space-for-scroll ud-discover-tracker" data-action="full-description-read" data-course-id="AkUSd1hS" data-user-id="" data-target-selector-class="js-simple-collapse-more-btn" data-purpose="course-description">
+							<h3 class="tab-title">Course Description</h3>
+						</div>
+						<div id="requirements" class="top-space-for-scroll">
+							<h3 class="tab-title">What are the requirements?</h3>
+							<ul class="regular-list">
+								<li>Familiarity with basic business and startup concepts is helpful, but not necessary</li>
+							</ul>
+						</div>
+						<div id="what-you-get" class="top-space-for-scroll">
+							<h3 class="tab-title">What am I going to get from this course?</h3>
+							<div data-more="Full details" class="js-simple-collapse" style="max-height:100px">
+								<div class="js-simple-collapse-inner">
+									<ul class="regular-list">
+                        
+                            <li>Quickly validate their ideas through 5 different techniques</li>
+                        
+                            <li>Build a landing page that converts through Launchrock</li>
+                        
+                            <li>Run validation campaigns through Facebook and Google</li>
+                        
+                            <li>Interpret the results of their validation campaigns and understand basic web analytics</li>
+                        
+                            <li>Learn to wireframe from scratch with Balsamiq and produce a mockup of YouTube</li>
+                        
+                            <li>Learn how to determine the best and cheapest way of getting your app designed</li>
+                        
+                            <li>Learn how to manage design freelancers and to be effective at negotiating a lower price</li>
+                        
+                            <li>Start a web design contest and receive up to 40 designs free of cost to choose from</li>
+                        
+                            <li>Make use of free and premium templates to skip the graphic design process entirely</li>
+                        
+                            <li>Put together a design packet for the design process</li>
+                        
+                            <li>Find and vet developers from 3 different online sources</li>
+                        
+                            <li>Test developers with small amounts of investment before committing to them</li>
+                        
+                            <li>Find the best deals on contractors and save the most money</li>
+                        
+                            <li>Avoid the common pitfalls of contracting</li>
+                        
+                            <li>Streamline the communication with their development team</li>
+                        
+                            <li>Bug test web and mobile applications effectively and professionally</li>
+                        
+                            <li>Understand the basics of startup traction and how product quality plays into that</li>
+                        
+                            <li>Leverage your MVP to recruit and attract investment capital</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div class="row">
+			<div id="curriculum" class="top-space-for-scroll clearfix row">
+				<div class="col-md-11">
+					<h1>
+						Curriculum
+					</h1>
+
+					<div class="table-responsive b0-xs">
+						<table class="cur-list table table-hover ud-landingpage-curriculum" >
+						<tbody>
+							<tr class="cur-list-title">
+								<th colspan="4" class="w30 tal hm">
+									Section 1: Get acquainted (10 minutes)
+								</th>
+							</tr>
+							<tr class="cur-list-row cur-list-row-wo-desc ">
+								<td class="lec-icon tac hm cur-icon wa-force-xs">
+									<i class="icon-play-sign"></i>
+								</td>
+								<td class="count wa-force-xs">
+                                    Lecture 1
+								</td>
+								<td class="lec-title-and-preview">
+									<div class="lec-title-and-preview-inner dif aic fxjsa-xs pr10-xs fxac-ie">
+										<div class="lec-title fx">
+											Meet the instructor
+										</div>
+										<a href="#"  class="btn btn-sm ud-popup ud-courseimpressiontracker preview-btn ml15 btn-primary" data-tracking-type="lecture-preview">
+                                            Play
+                                        </a>
+                
+									</div>
+								</td>
+								<td class="tar lec-det">
+									05:16
+								</td>
+							</tr>
+							<tr class="cur-list-row cur-list-row-wo-desc ">
+								<td class="lec-icon tac hm cur-icon wa-force-xs">
+									<i class="icon-play-sign"></i>
+								</td>
+								<td class="count wa-force-xs">
+									Lecture 2
+								</td>
+								<td class="lec-title-and-preview">
+									<div class="lec-title-and-preview-inner dif aic fxjsa-xs pr10-xs fxac-ie">
+										<div class="lec-title fx">
+											Say Hi!
+										</div>
+											<a href="#" data-course-id="369660" data-lecture-id="2263820" class="btn btn-sm ud-popup ud-courseimpressiontracker preview-btn ml15 btn-primary" data-tracking-type="lecture-preview">
+												Play
+                                            </a>
+									</div>
+								</td>
+								<td class="tar lec-det">
+									01:20
+								</td>
+							</tr>
+							<tr class="cur-list-title">
+								<th colspan="4" class="w30 tal hm">
+									Section 2: Getting ready (27 minutes)
+								</th>
+							</tr>
+							<tr class="cur-list-row cur-list-row-wo-desc ">
+								<td class="lec-icon tac hm cur-icon wa-force-xs">
+									<i class="icon-play-sign"></i>
+								</td>
+								<td class="count wa-force-xs">
+                                    Lecture 3
+								</td>
+								<td class="lec-title-and-preview">
+									<div class="lec-title-and-preview-inner dif aic fxjsa-xs pr10-xs fxac-ie">
+										<div class="lec-title fx">
+											Is learning to code a waste of time?
+										</div>
+										<a href="#"  class="btn btn-sm ud-popup ud-courseimpressiontracker preview-btn ml15 btn-primary" data-tracking-type="lecture-preview">
+                                            Play
+                                        </a>
+                
+									</div>
+								</td>
+								<td class="tar lec-det">
+									05:16
+								</td>
+							</tr>
+							<tr class="cur-list-row cur-list-row-wo-desc ">
+								<td class="lec-icon tac hm cur-icon wa-force-xs">
+									<i class="icon-play-sign"></i>
+								</td>
+								<td class="count wa-force-xs">
+									Lecture 4
+								</td>
+								<td class="lec-title-and-preview">
+									<div class="lec-title-and-preview-inner dif aic fxjsa-xs pr10-xs fxac-ie">
+										<div class="lec-title fx">
+											The idea validation framework
+										</div>
+											<a href="#" class="btn btn-sm ud-popup ud-courseimpressiontracker preview-btn ml15 btn-primary" >
+												Play
+                                            </a>
+									</div>
+								</td>
+								<td class="tar lec-det">
+									01:20
+								</td>
+							</tr>
+							
+							
+						</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+        </div>									 
+</div>
+</body>
+</html>
